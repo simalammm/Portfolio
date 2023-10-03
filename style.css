@@ -141,6 +141,9 @@ section::before{
 }
 
 
+.contact::before{
+    content: 'Contact';
+}
 
 
 
