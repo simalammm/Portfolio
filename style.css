@@ -49,6 +49,11 @@ section::before{
     font-size: 25px;
 }
 
+
+.home .col-4 image {
+    width: 100%;
+}
+
 .home .arrow img{
     width: 60px;
 }
@@ -152,6 +157,8 @@ section::before{
 
 .contact::before{
     content: 'Contact';
+    /* align-content: center;
+    justify-content: center; */
 }
 
 .contact-form {
@@ -164,6 +171,12 @@ section::before{
     font-weight: 700;
 }
 
+
+@media only screen and (max-width: 768px) {
+    .home image{
+        width: 50%;
+    }
+}
 
 
 @keyframes upDown {
